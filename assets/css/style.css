@@ -35,6 +35,7 @@ h4,
 h5,
 h6 {
   font-family: "Nunito", sans-serif;
+  color: #012970;
 }
 
 /*--------------------------------------------------------------
@@ -171,8 +172,9 @@ section {
   line-height: 0;
 }
 .header .logo img {
-  max-height: 40px;
+  height: 60px;
   margin-right: 6px;
+  padding: 0;
 }
 .header .logo span {
   font-size: 30px;
@@ -612,7 +614,7 @@ section {
   color: #fff;
 }
 .features .feture-tabs {
-  margin-top: 120px;
+  margin-top: 10px;
 }
 .features .feture-tabs h3 {
   color: #012970;
@@ -703,7 +705,7 @@ section {
 }
 .services .service-box .icon {
   font-size: 36px;
-  padding: 40px 20px;
+  padding: 20px 20px;
   border-radius: 4px;
   position: relative;
   margin-bottom: 25px;
@@ -2079,4 +2081,120 @@ section {
 }
 .brand-button:hover {
   background: #5969f3;
+}
+
+.why-us h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #012970;
+}
+.icon2 {
+  width: 50px;
+}
+
+.quoteBox {
+  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  text-align: center;
+  transition: 0.3s;
+  max-width: 600px;
+  padding: 30px;
+  border-radius: 4px;
+}
+blockquote {
+  /* font-style: italic; */
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.4;
+  max-width: 500px;
+  /* position: relative; */
+  /* padding: 0.5rem; */
+}
+
+.quoteBox:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-get-started {
+  margin-top: 50px;
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: var(--brand-color);
+  box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
+}
+.btn-get-started span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.btn-get-started i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.btn-get-started:hover i {
+  transform: translateX(5px);
+}
+.btn-get-started span {
+  color: #f6f9ff;
+}
+/* floating buttons */
+.float {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 20vh;
+  right: 15px;
+  color: #fff;
+  border-radius: 50px;
+  background-color: #25d366;
+  text-align: center;
+  font-size: 24px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-float {
+  margin-top: 15px;
+  height: 100%;
+}
+
+.float2 {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 10vh;
+  right: 15px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 24px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* floating buttons */
+
+.contactus-img {
+  margin-bottom: 50;
+}
+select {
+  color: #899096 !important;
+  font-size: 1rem;
 }
