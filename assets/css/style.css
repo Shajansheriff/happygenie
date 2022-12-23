@@ -2198,3 +2198,13 @@ select {
   color: #899096 !important;
   font-size: 1rem;
 }
+.pptCtr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.pptCtr img {
+  margin-top: 20px;
+}
