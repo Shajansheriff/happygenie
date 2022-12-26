@@ -6,7 +6,7 @@
   overflow: hidden;
   border: 10px solid #ffffff;
   border-radius: 8px;
-  box-shadow: -1px 5px 15px #6d32ad;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 /*Area of images*/
@@ -62,12 +62,13 @@ select {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  width: auto;
 }
 
 /* Hide the images by default */
 .slideshow-container .mySlides {
   display: none;
+  margin: auto;
 }
 
 /* The dots/bullets/indicators */
@@ -94,6 +95,12 @@ select {
 .slideshow-container .sfade {
   animation-name: sfade;
   animation-duration: 1.5s;
+}
+
+.mySlides img {
+  width: 800px;
+  height: auto;
+  object-fit: cover;
 }
 
 @keyframes sfade {
